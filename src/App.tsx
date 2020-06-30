@@ -1,5 +1,6 @@
 import React from 'react';
 import Hello from './components/Hello'
+import List from './pages/List'
 
 class App extends React.Component {
 
@@ -12,6 +13,7 @@ class App extends React.Component {
       <div className="App">
         <p>Hello React TypeScript</p>
         <Hello title="标题" age={20} onMyClick={this.myClickHandler} />
+        <List />
       </div>
     )
   }
