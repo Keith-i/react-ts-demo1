@@ -8,9 +8,11 @@ export default class ListView extends React.Component<IProps> {
   public render() {
     const { data } = this.props
     return (
-      <div>
-        {data.url}
-      </div>
+      <React.Fragment>
+        <li>
+          {data.url}
+        </li>
+      </React.Fragment>
     )
   }
 }
