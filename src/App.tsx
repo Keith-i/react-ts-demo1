@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Button } from 'antd'
 import Hello from './components/Hello'
 import List from './pages/List'
